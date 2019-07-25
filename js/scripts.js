@@ -1,4 +1,4 @@
-var repository = ['jigglypuff', 'litwick', 'mrMime']
+var repository = ['jigglypuff', 'litwick', 'mrMime'];
   var jigglypuff ={
     name: 'Jigglypuff',
     height: .5,
@@ -16,5 +16,5 @@ var repository = ['jigglypuff', 'litwick', 'mrMime']
   };
 
 for (var i = 0; i < repository.length; i++) {
-  document.write('<p>' + name + ' height:' + height + '</p>')
-}
+  document.write('<p>' + name + ' height: ' + height + '</p>')
+};
