@@ -16,6 +16,5 @@ var repository = [
   }
 ]
 for (var i = 0; i < repository.length; i++) {
-  var pokemon = i
   document.write('<p>' + repository.name + ' (height: ' + repository.height + ')</p>')
 };
