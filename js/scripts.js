@@ -16,5 +16,5 @@ var repository = [
   }
 ]
 for (var i = 0; i < repository.length; i++) {
-  document.write('<p>' + repository.name + ' (height: ' + repository.height + ')</p>')
+  document.write ('<p>' + repository[i].name +  ' (height: ' + repository[i].height + ')</p>')
 };
