@@ -16,20 +16,11 @@ var repository = [
   }
 ]
 
-function loopBlockFunction(pokemon)
-
-repository.forEach(loopBlockFunction(pokemon)) {
-  if (repository[i].height > 1) {
-    document.write ('<p>' + repository[i].name +  ' (height: ' + repository[i].height + ') - Wow! That\'s big!</p>');
+function loopBlockFunction(pokemon){
+  if (pokemon.height > 1) {
+    document.write ('<p>' + pokemon.name + ' (height: ' + pokemon.height + ') - Wow! That\'s big!</p>');
   } else {
-    document.write ('<p>' + repository[i].name +  ' (height: ' + repository[i].height + ')</p>');
+    document.write ('<p>' + pokemon.name +  ' (height: ' + pokemon.height + ')</p>');
   }
-};
-
-/*for (var i = 0; i < repository.length; i++) {
-  if (repository[i].height > 1) {
-    document.write ('<p>' + repository[i].name +  ' (height: ' + repository[i].height + ') - Wow! That\'s big!</p>');
-  } else {
-  document.write ('<p>' + repository[i].name +  ' (height: ' + repository[i].height + ')</p>');
-  }
-};*/
+}
+repository.forEach(loopBlockFunction);
